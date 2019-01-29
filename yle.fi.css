@@ -1,0 +1,20 @@
+@-moz-document regexp("https://yle.fi/?.*") {
+.yle-header.sticky {
+    position: absolute;
+}
+
+.yle__newsletter, /* probably not used anymore */
+.yle__article__content + div, /* newsletter */
+.yle__topBannerWrapper {
+    display: none;
+}
+
+.yle__article__header .yle__article__heading,
+.yle__article__content .yle__article__heading{
+    font-weight: 500 !important;
+}
+
+.yle__article__content .yle__article__paragraph {
+    font-weight: 300;
+}
+}
