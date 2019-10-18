@@ -11,8 +11,7 @@
 
 .yle__newsletter, /* probably not used anymore */
 .yle__article__content + div, /* newsletter */
-.yle__topBannerWrapper,
-.yle__headerWrapper {
+.yle__topBannerWrapper {
     display: none;
 }
 
